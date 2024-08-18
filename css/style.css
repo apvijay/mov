@@ -1,10 +1,11 @@
 
-h1, .kings-regular {
-    font-family: "Kings", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+h1, .playfair-display-800 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
 body, .vollkorn-400 {
   font-family: "Vollkorn", serif;
   font-optical-sizing: auto;
