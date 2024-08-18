@@ -1,6 +1,6 @@
 ---
 layout: home
-title: A Few Movies, A Few Words
+title: A Few Tamil Movies, A Few English Words
 ---
 
 
