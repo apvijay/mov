@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+<body>
+
+  <div id="page">
+      <div>
+          <h1>{{ site.title }}</h1>
+      </div>
+
+      <h2>{{ page.title }}</h2>
+      <a href="/">Vijay Rengarajan</a> 
+
+      <span class="date">
+        {{ page.date | date: "%-B" }}
+        {{ page.date | date: "%-d" | plus:'0' }}, 
+        {{ page.date | date: "%Y" }}
+      </span>
+
+      {% for tag in page.tags %}
+            <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+
+      <br>
+
+      {{ content }}
+
+      <br>
+      <div style="float: left"><a href="#" onclick="history.go(-1)"> < Back </a></div>
+      <div style="float: right"></div>
+      <div style="margin: 0 auto; text-align: center"><a href="/"> ⌂ Home</a></div>
+
+      {% include footer.html %}
+  </div>
+</body>
